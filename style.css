@@ -33,7 +33,7 @@
     .botoes{
         display: flex;
         align-items: center;
-        margin-right: 30px;
+        margin-right: 10px;
         font-size: 20px;
     }
     .btn1{
@@ -42,7 +42,7 @@
         background-color: transparent;
         font-size:14px ;
         font-weight: 300;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     .btn2{
         background-color: #4169E1;
@@ -70,7 +70,7 @@
         padding: 15px;
     }
     .bonus{
-        width: 230px;
+        width: 400px;
         text-align: center;
         /* background-color: rgba(0, 0, 0, 0.10); */
         background-color: rgba(30, 55, 243, 0.10);
@@ -79,7 +79,7 @@
         letter-spacing: 1px;
     }
     .bonus h2{
-        margin-bottom: 3px;
+        margin-bottom: 13px;
     }
     .bonus h2::first-letter{
         color:#4169E1 ;
@@ -101,4 +101,31 @@
     .icones{
         width: 50px;
     }
+    hr{
+        color: black;
+    }
+    .primeiros{
+        display: flex;
+        flex-direction: column;
+        max-width: 412px;
+        color: white;
+        padding: 10px;
+    }
+    ul{
+        display: flex;
+        align-content: space-between;
+        flex-wrap: nowrap;
+        width: 430;
+        
+    }
+    li{
+        list-style: none;
+    }
+    li img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        
+    }
+    
 }
