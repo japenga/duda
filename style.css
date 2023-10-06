@@ -54,6 +54,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        color: black;
     }
     .btn1, .btn2:hover{
         cursor: pointer;
