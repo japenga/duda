@@ -6,6 +6,9 @@
 }
 
 @media screen and (max-width: 700px) {
+    *{
+        box-sizing: border-box;
+    }
     body{
         background-color: #363636;
     }
@@ -74,5 +77,15 @@
     }
     .bar-icon{
         display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    .bar-fundo{
+        background-color: rgba(30, 55, 243, 0.10);
+        padding: 10px;
+        border-radius: 100%;
+    }
+    .icones{
+        width: 50px;
     }
 }
