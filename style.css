@@ -22,6 +22,8 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px;
+        position: sticky;
+        top: 0;
     }
     
     .logo-entrar{
@@ -58,6 +60,7 @@
     }
     .card{
         background-image: url(./images/Captura-de-Tela-2023-01-19-as-10.50.57.png);
+        
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -73,7 +76,7 @@
         width: 400px;
         text-align: center;
         /* background-color: rgba(0, 0, 0, 0.10); */
-        background-color: rgba(30, 55, 243, 0.10);
+        background-color: rgba(6, 0, 33, 0.1);
         padding: 10px;
         border-radius: 15px;
         letter-spacing: 1px;
@@ -82,6 +85,9 @@
         margin-bottom: 13px;
     }
     .bonus h2::first-letter{
+        color:#4169E1 ;
+    }
+    .bonus h3::first-letter{
         color:#4169E1 ;
     }
     .bar-icon{
@@ -110,6 +116,7 @@
         max-width: 412px;
         color: white;
         padding: 10px;
+
     }
     ul{
         display: flex;
@@ -124,8 +131,30 @@
     li img{
         width: 100%;
         height: auto;
-        border-radius: 8px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 20px;
         
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+    }
+    header h2{
+        color: white;
+    }
+    header span{
+        color: #4169E1;
+        background-color: rgba(30, 55, 243, 0.10);
+        padding: 8px;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+   
+    .terceiros{
+        max-height: 100px;
     }
     
 }
