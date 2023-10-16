@@ -55,18 +55,19 @@ input::placeholder{
     color: #3b6cfe;
 }
 .formulario{
-    max-width: 360px;
+    max-width: 355px;
     margin: auto;
 }
 footer{
     width: 100%;
     display: flex;
     flex-flow:wrap column;
-    font-size: 16px;
+    font-size: 15px;
 }
 footer sub{
     padding: 3px 0 10px;
     color: rgb(234, 234, 234);
+    text-align: center;
 }
 footer button{
     padding: 15px;
@@ -75,7 +76,8 @@ footer button{
     font-weight: 600;
     background-color: #3b6cfe;
     color: #2a2a2a;
-    cursor: pointer;border-radius: 4px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 a{
     text-decoration: none;
