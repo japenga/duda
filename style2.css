@@ -1,0 +1,23 @@
+body{
+    background-color: #363636;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 18px;
+}
+.form{
+    max-width: 360px;
+    margin: auto;
+}
+.cab{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.cab img{
+    width: 100px;
+    margin: auto;
+}
