@@ -8,14 +8,18 @@ body{
     background-color: #404040;
 
 }
-
+.a{
+    display: flex;
+    flex-direction: column;
+    max-height: 900px ;
+    justify-content: center;
+}
 .container{
     background-image: url(./images/cj\ e\ a\ morena.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-flow:wrap column ;
-    margin-top: 62%;
     justify-content: center;
     align-items: center;
     height: 400px;
