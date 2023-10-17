@@ -13,8 +13,11 @@ let foguete = document.getElementById('canvas');
 function voltar(){
     // this.window.location = "./index2.html";
     song.play();
-    foguete.style.display = "inline";
+    foguete.style.visibility = "inherit";
     
+}
+function pag2(){
+	this.window.location = "index2.html";
 }
 function nao(t){
     var btn = t;

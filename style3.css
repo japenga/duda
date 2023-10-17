@@ -6,13 +6,15 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #404040;
-
+    /* position: absolute  ; */
 }
 .a{
     display: flex;
     flex-direction: column;
     max-height: 900px ;
     justify-content: center;
+    
+    
 }
 .container{
     background-image: url(./images/cj\ e\ a\ morena.jpeg);
@@ -28,7 +30,6 @@ body{
     position: absolute;
     color: whitesmoke;
     width: 100%;
-
 }
 audio{
     display: none;
@@ -55,5 +56,11 @@ border-radius: 5px;
 font-size: 15px;
 }
 canvas{
-    display: none;
+    visibility:hidden;
+}
+.container img{
+    align-self:flex-start;
+    width: 40px;
+    position: absolute;
+    bottom: 0;
 }
