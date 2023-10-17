@@ -26,6 +26,9 @@ body{
     
 
 }
+audio{
+    display: none;
+}
 .container span{
     font-size: 20px;
     font-weight: 700;

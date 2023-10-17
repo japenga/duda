@@ -8,9 +8,12 @@ function botao(){
     localStorage.setItem('Nome da pessoa', texto);
     window.location.href = 'index3.html';
 }
+let song = document.getElementById("song");
 function voltar(){
-    this.window.location = "./index2.html";
+    // this.window.location = "./index2.html";
+    song.play();
 }
+setTimeout(voltar, 3000);
 function nao(t){
     var btn = t;
     btn.style.position = 'absolute';
